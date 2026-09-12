@@ -1,0 +1,12 @@
+body{background:linear-gradient(135deg,#8b5cf6,#6d28d9);min-height:100vh;display:flex;justify-content:center;align-items:center;font-family:sans-serif;margin:0}
+.container{background:#fff;width:90%;max-width:400px;border-radius:30px;padding:25px;box-shadow:0 20px 40px rgba(0,0,0,.2)}
+h1{margin:0 0 20px}
+.input-box{display:flex;background:#f3f3f5;border-radius:30px;padding:5px;border:1px solid #ddd}
+.input-box input{flex:1;border:0;outline:0;padding:10px 15px;background:transparent}
+.input-box button{background:#6d28d9;color:#fff;border:0;border-radius:20px;padding:0 20px;cursor:pointer}
+ul{list-style:none;padding:0;margin:20px 0}
+li{display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid #eee}
+li.completed span{text-decoration:line-through;opacity:.5}
+li input[type=checkbox]{width:22px;height:22px;accent-color:#6d28d9}
+.footer{display:flex;justify-content:space-between;font-size:14px;color:#666;margin-top:10px}
+.footer button{background:0;border:0;color:#6d28d9;cursor:pointer}

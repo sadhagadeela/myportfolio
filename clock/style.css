@@ -1,0 +1,14 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:linear-gradient(135deg,#0f172a,#1e293b);color:white;min-height:100vh;display:flex;justify-content:center;align-items:center}
+.container{text-align:center;padding:20px}
+h1{margin:25px 0 15px}
+.clock-box{background:rgba(255,255,255,0.1);padding:30px 50px;border-radius:20px;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.2)}
+#clock{font-size:60px;font-weight:bold;letter-spacing:3px}
+#date{margin-top:10px;color:#94a3b8}
+.stopwatch-box{background:rgba(255,255,255,0.1);padding:30px 50px;border-radius:20px;margin-top:10px}
+#stopwatch{font-size:50px;font-weight:bold;margin-bottom:20px}
+.btns{display:flex;gap:15px;justify-content:center}
+.btns button{padding:12px 25px;border:none;border-radius:8px;font-weight:bold;cursor:pointer;font-size:16px}
+.start{background:#22c55e;color:white}
+.stop{background:#ef4444;color:white}
+.reset{background:#64748b;color:white}

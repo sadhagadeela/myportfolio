@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login & Signup</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="form-box">
+<div class="tabs">
+<button id="loginTab" class="active" onclick="showLogin()">Login</button>
+<button id="signupTab" onclick="showSignup()">Signup</button>
+</div>
+
+<form id="loginForm" onsubmit="return validateLogin(event)">
+<h2>Welcome Back</h2>
+<input type="email" id="loginEmail" placeholder="Email">
+<p class="error" id="loginEmailError"></p>
+<input type="password" id="loginPass" placeholder="Password">
+<p class="error" id="loginPassError"></p>
+<button type="submit" class="btn">Login</button>
+</form>
+
+<form id="signupForm" class="hidden" onsubmit="return validateSignup(event)">
+<h2>Create Account</h2>
+<input type="text" id="signupName" placeholder="Full Name">
+<p class="error" id="nameError"></p>
+<input type="email" id="signupEmail" placeholder="Email">
+<p class="error" id="emailError"></p>
+<input type="password" id="signupPass" placeholder="Password">
+<p class="error" id="passError"></p>
+<button type="submit" class="btn">Signup</button>
+</form>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

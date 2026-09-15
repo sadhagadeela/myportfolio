@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Player</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div class="player">
+<div class="img-box">
+<img id="cover" src="https://picsum.photos/300/300?random=1" alt="">
+</div>
+<h2 id="title">Song Title</h2>
+<p id="artist">Artist</p>
+
+<div class="progress-container" id="progressContainer">
+<div class="progress" id="progress"></div>
+</div>
+<div class="time">
+<span id="currTime">0:00</span>
+<span id="durTime">0:00</span>
+</div>
+
+<div class="controls">
+<button onclick="prevSong()"><i class="fa-solid fa-backward"></i></button>
+<button class="play-btn" onclick="playPause()"><i id="playIcon" class="fa-solid fa-play"></i></button>
+<button onclick="nextSong()"><i class="fa-solid fa-forward"></i></button>
+</div>
+</div>
+<audio id="audio"></audio>
+<script src="script.js"></script>
+</body>
+</html>
